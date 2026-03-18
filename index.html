@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSA App | Climate-Smart Farming App</title>
+  <meta name="description" content="CSA App is a Flutter mobile app that blends real-time weather, crop intelligence, and ML-assisted recommendations for climate-smart agriculture." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <img src="assets/cloud.png" alt="Cloud icon" class="brand-icon" />
+        <div>
+          <p class="brand-title">CSA App</p>
+          <p class="brand-sub">Climate-Smart Agriculture</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Mobile App Showcase</p>
+          <h1>Weather-aware crop guidance for farmers, built with Flutter + ML.</h1>
+          <p class="lead">
+            CSA App helps farmers make confident, climate-smart decisions by combining live weather data,
+            crop datasets, and machine-learning recommendations in one simple app.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#screens">View Screens</a>
+            <a class="btn ghost" href="#features">Explore Features</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <p class="metric-value">7-Day</p>
+              <p class="metric-label">Forecast & Alerts</p>
+            </div>
+            <div class="metric">
+              <p class="metric-value">CSV + ML</p>
+              <p class="metric-label">Crop Recommendations</p>
+            </div>
+            <div class="metric">
+              <p class="metric-value">Secure Auth</p>
+              <p class="metric-label">Firebase Login</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="phone">
+            <div class="phone-header">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="phone-body">
+              <p class="screen-title">CSA App</p>
+              <div class="screen-card accent">
+                <p class="screen-label">Current Weather</p>
+                <p class="screen-value">Lusaka - 26 C - Light rain</p>
+              </div>
+              <div class="screen-card">
+                <p class="screen-label">Suggested Crops</p>
+                <p class="screen-value">Maize - Groundnuts - Soybean</p>
+              </div>
+              <div class="screen-card">
+                <p class="screen-label">Alerts</p>
+                <p class="screen-value">High humidity risk for maize</p>
+              </div>
+              <div class="screen-footer">
+                <span>Weather</span><span>Forecast</span><span>Tips</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Core Features</h2>
+          <p>Focused on climate risk, planting strategy, and practical information for farmers.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="card">
+            <h3>Location-aware Weather</h3>
+            <p>Current conditions, rainfall, humidity, wind, and sunrise/sunset using OpenWeather.</p>
+          </article>
+          <article class="card">
+            <h3>7-Day Forecast</h3>
+            <p>Daily breakdowns with detailed insights and a clean forecast list view.</p>
+          </article>
+          <article class="card">
+            <h3>Crop Recommendations</h3>
+            <p>ML-assisted crop suggestions based on weather + seasonal datasets.</p>
+          </article>
+          <article class="card">
+            <h3>Crop Information Library</h3>
+            <p>Searchable crop profiles with planting conditions and growing guidance.</p>
+          </article>
+          <article class="card">
+            <h3>Weather Alerts</h3>
+            <p>Alert cards showing severe weather warnings when available.</p>
+          </article>
+          <article class="card">
+            <h3>Feedback & Bug Reports</h3>
+            <p>In-app feedback stored in Firestore for continuous improvement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="screens">
+  <div class="container">
+    <div class="section-header">
+      <h2>App Screens</h2>
+      <p>Real screenshots from the app experience.</p>
+    </div>
+    <div class="screen-grid">
+      <div class="screen-card">
+        <p class="screen-tag">Home Dashboard</p>
+        <img src="images/app/home.png" alt="Home screen" class="screen-image" />
+      </div>
+      <div class="screen-card">
+        <p class="screen-tag">Weather Forecast</p>
+        <img src="images/app/weather-forecast.png" alt="Weather forecast screen" class="screen-image" />
+      </div>
+      <div class="screen-card">
+        <p class="screen-tag">7-Day Forecast</p>
+        <img src="images/app/weather-forecast-7day.png" alt="7 day forecast screen" class="screen-image" />
+      </div>
+      <div class="screen-card">
+        <p class="screen-tag">Daily Weather Details</p>
+        <img src="images/app/daily-weather-details.png" alt="Daily weather details screen" class="screen-image" />
+      </div>
+      <div class="screen-card">
+        <p class="screen-tag">Crop Information</p>
+        <img src="images/app/crop-information.png" alt="Crop information screen" class="screen-image" />
+      </div>
+      <div class="screen-card">
+        <p class="screen-tag">Feedback</p>
+        <img src="images/app/feedback.png" alt="Feedback screen" class="screen-image" />
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>CSA App — Climate-Smart Agriculture App</p>
+      <p>Built with Flutter, Firebase, and OpenWeather data.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
